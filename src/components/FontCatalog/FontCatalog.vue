@@ -70,7 +70,7 @@
                 this.$nextTick(function () {
                     const observer = new IntersectionObserver(this.intersectionCallback, {
                         threshold: 0,
-                        rootMargin: "0px 0px 300px 0px",
+                        rootMargin: "0px 0px 250px 0px",
                     });
                     this.$refs.fontRefs.forEach((li) => observer.observe(li)); // unobserve ?
                 })
